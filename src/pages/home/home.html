@@ -9,14 +9,41 @@
 </ion-header>
 <!--Fist Screen Content-->
 <ion-content>
-    <div *ngIf="data.background!=null"  background-size default-background [ngStyle]="{'background-image': 'url(' + data.background + ')'}">
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      1 of 2
+    </ion-col>
+    <ion-col>
+      2 of 2
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      1 of 3
+    </ion-col>
+    <ion-col>
+      2 of 3
+    </ion-col>
+    <ion-col>
+      3 of 3
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+    <!--<div *ngIf="data.background!=null"  background-size default-background [ngStyle]="{'background-image': 'url(' + data.background + ')'}">
         <div class="ionic-descript" text-center>
             <h2 item-title>{{data.title}}</h2>
             <h2 item-title>{{data.subtitle}}</h2>
             <p item-subtitle>{{data.subtitle2}}</p>
         </div>
+
         <a [href]="data.link">
             {{data.description}}
         </a>
-    </div>
+    </div>-->
+
+
+
 </ion-content>
