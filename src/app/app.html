@@ -5,10 +5,11 @@
                 <ion-thumbnail>
                     <img [src]="params.image">
                 </ion-thumbnail>
-                <h2 item-title text-center>{{params.title}}</h2>
+                <!--<h2 item-title text-center>{{params.title}}</h2>-->
+                <h2 item-title text-center>Hour Timesheet</h2>
         </ion-header>
         <!-- Menu Main List -->
-        <!--<ion-content main-menu>
+        <ion-content main-menu>
             <ion-list no-margin no-padding>
                 <button menuClose ion-item paddinge-left no-lines item-title *ngFor="let p of pages" (click)="openPage(p)">
         <ion-icon icon-small item-left>
@@ -17,7 +18,7 @@
         {{p.title}}
       </button>
             </ion-list>
-        </ion-content>-->
+        </ion-content>
     </ion-menu>
     <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
     <ion-nav [root]="rootPage" main #content swipeBackEnabled="false"></ion-nav>
