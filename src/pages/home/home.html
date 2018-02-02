@@ -10,7 +10,7 @@
 <!--Fist Screen Content-->
 <ion-content>
 
-<ion-grid>
+<ion-grid >
   <ion-row>
     <ion-col>
       Mon
@@ -36,13 +36,44 @@
   </ion-row>
 </ion-grid>
 
+<ion-card>
+  <ion-card-content>
+    <ion-card-title >
+        George>HourTimesheet>Development>FrontEnd     
+       </ion-card-title>
+       <ion-row>
+          <ion-col padding-left		 col-8 class="fontSize" ng-class="fontSize ===1">
+              notes are added here
+            </ion-col>
+            <ion-col text-right	 col-4>
+         12:00 HRS
+     </ion-col>
+       </ion-row>
+  </ion-card-content>
+</ion-card>
+<ion-row>
+  <ion-col col-10>
+    Over Time
+  </ion-col>
+  <ion-col col-2>
+      0.00
+    </ion-col>
+</ion-row>
+<ion-row>
+    <ion-col col-10>
+      Day total
+    </ion-col>
+    <ion-col col-2>
+        12.00
+      </ion-col>
+  </ion-row>
+
     <!--<div *ngIf="data.background!=null"  background-size default-background [ngStyle]="{'background-image': 'url(' + data.background + ')'}">
         <div class="ionic-descript" text-center>
             <h2 item-title>{{data.title}}</h2>
             <h2 item-title>{{data.subtitle}}</h2>
             <p item-subtitle>{{data.subtitle2}}</p>
         </div>
-
         <a [href]="data.link">
             {{data.description}}
         </a>
