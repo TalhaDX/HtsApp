@@ -30,3 +30,20 @@ page-home {
         }
     }
 }
+
+.custom-h5 {
+    font-size: $h5-font-size;
+    color: theme-colors('textColors', 'accent');
+    font-weight: 300;
+  }
+
+  .custom-h4 {
+    font-size: $h5-font-size;
+    color: theme-colors('textColors', 'accent');
+    font-weight: 300;
+  }
+  .custom-h3 {
+    font-size: $h5-font-size;
+    color: theme-colors('textColors', 'accent');
+    font-weight: 300;
+  }

@@ -12,38 +12,42 @@
 
 <ion-grid>
   <ion-row>
-    <ion-col>
-      Mon
-    </ion-col>
-    <ion-col>
-      Tue
-    </ion-col>
-    <ion-col>
-      Wed
-    </ion-col>
-    <ion-col>
-      Thu
-    </ion-col>
-    <ion-col>
-      Fri
-    </ion-col>
-    <ion-col>
-      Sat
-    </ion-col>
-    <ion-col>
-      Sun
-    </ion-col>
+      <ion-segment>
+          <ion-segment-button value="Mon">
+            Mon
+          </ion-segment-button>
+          <ion-segment-button value="Tue">
+            Tue
+          </ion-segment-button>
+          <ion-segment-button value="Wed">
+            Wed
+            </ion-segment-button>
+          <ion-segment-button value="Thur">
+            Thur
+          </ion-segment-button>
+          <ion-segment-button value="Fri">
+            Fri
+          </ion-segment-button>
+          <ion-segment-button value="Sat">
+            Sat
+          </ion-segment-button>
+          <ion-segment-button value="Sun">
+            Sun
+          </ion-segment-button>
+        </ion-segment>
   </ion-row>
 </ion-grid>
 
 <ion-card>
   <ion-card-content>
     <ion-card-title>
-        <h1>Charge > </h1> <h4 margin-top>HTS > Development </h4>
+        <h3 class="custom-h3">Charge > </h3> <h4 class="custom-h4" margin-top>HTS > Development </h4>
        </ion-card-title>
        <ion-row>
           <ion-col col-8 class="fontSize" ng-class="fontSize ===1">
-              ---- notes section ---
+              <span class="custom-h5">
+                  ---- notes section ---
+              </span>
             </ion-col>
             <ion-col text-right	 col-4>
          8:00 HRS
@@ -51,6 +55,7 @@
        </ion-row>
   </ion-card-content>
 </ion-card>
+
 <ion-row margin-top margin-left>
   <ion-col col-10>
     Over Time
