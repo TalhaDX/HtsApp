@@ -15,12 +15,13 @@ import { LoadingService } from '../services/loading-service'
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { CustomFabMenu }from '../components/ionic-fab-label-backdrop/fab-menu';
 
 @NgModule({
     declarations: [MyApp],
     providers: [
         BarcodeScanner, StatusBar, SplashScreen,
-        ToastService, LoadingService,
+        ToastService, LoadingService, CustomFabMenu,
         { provide: ErrorHandler, useClass: IonicErrorHandler },
     ],
     imports: [

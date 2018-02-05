@@ -10,7 +10,7 @@ export class HomeService {
 
     getData = () => {
         return {
-            "toolbarTitle": "Ionic3 UI Theme - Blue Light",
+            "toolbarTitle": "My Timesheet",
             "title": "SAVE HOURS",
             "subtitle": "OF DEVELOPING",
             "subtitle2": "and make apps fast as light!",
